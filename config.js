@@ -16,7 +16,7 @@ global.allowJids= process.env.ALLOW_JID || "null"
 global.blockJids= process.env.BLOCK_JID || "null"
 global.DATABASE_URL = process.env.DATABASE_URL || ""
 
-global.timezone= process.env.TZ || process.env.TIME_ZONE || "Nigeria/Osun,Oshogbo";
+global.timezone= process.env.TZ || process.env.TIME_ZONE || "Kenya,Nairobi";
 global.github=process.env.GITHUB|| "https://github.com/Tsumahhh/TSUMAH-WB";
 global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029Vah3XPC6rsQtIcfTX342";
 global.website=process.env.GURL || "https://whatsapp.com/channel/0029Vah3XPC6rsQtIcfTX342" ; 
@@ -24,7 +24,7 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://te
 global.caption = process.env.CAPTION || global.caption || "Empire_Md" 
 
 
-global.devs = "2348078582627" // Developer Contact
+global.devs = "254743399594" // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
 global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "254743399594";
 
@@ -81,10 +81,10 @@ module.exports = {
   errorChat : process.env.ERROR_CHAT || "",
   KOYEB_API : process.env.KOYEB_API  || "false",
 
-  REMOVE_BG_KEY : process.env.REMOVE_BG_KEY  || "",
-  OPENAI_API_KEY: process.env.OPENAI_API_KEY || "",
-  HEROKU_API_KEY: process.env.HEROKU_API_KEY || "",
-  HEROKU_APP_NAME:process.env.HEROKU_APP_NAME|| "",
+  REMOVE_BG_KEY : process.env.REMOVE_BG_KEY  || "ZrLKjBWajdeqwmUm4Lc5dTAR",
+  OPENAI_API_KEY: process.env.OPENAI_API_KEY || "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",
+  HEROKU_API_KEY: process.env.HEROKU_API_KEY || "HRKU-526705a6-2bbd-4e48-984f-a9b98a90c334",
+  HEROKU_APP_NAME:process.env.HEROKU_APP_NAME|| "Solomon Mbotia",
   antilink_values:process.env.ANTILINK_VALUES|| "all",
   HEROKU: process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY,
 
@@ -98,7 +98,7 @@ module.exports = {
 
 
 
-global.ELEVENLAB_API_KEY = process.env.ELEVENLAB_API_KEY || "";
+global.ELEVENLAB_API_KEY = process.env.ELEVENLAB_API_KEY || "sk_040632c547ce6c453157d76eca2db6cb3801e6d4de4ddab3";
 global.aitts_Voice_Id = process.env.AITTS_ID|| "37";
 
 
@@ -139,4 +139,4 @@ fs.watchFile(file, () => { fs.unwatchFile(file);console.log(`Update'${__filename
   //read_status: process.env.AUTO_READ_STATUS || "false",
   //save_status: process.env.AUTO_SAVE_STATUS || "false",
   //aitts_Voice_Id : process.env.AITTS_ID || "37",
-  //ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY  || "",
+  //ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY  || "sk_040632c547ce6c453157d76eca2db6cb3801e6d4de4ddab3",
