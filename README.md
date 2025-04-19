@@ -1,7 +1,7 @@
 # SUHAIL-X (V2)
 <p align="center">
   <a href="https://www.youtube.com/@Only_one_empire">
-    <img alt="Suhail docs" height="300" src="./lib/assets/pk.jpg"  old_src= "https://telegra.ph/file/de5d7b00f501dd8ef40f9.jpg">
+    <img alt="Suhail docs" height="300" src="./lib/assets/pk.png"  old_src= "https://telegra.ph/file/de5d7b00f501dd8ef40f9.jpg">
   </a>
 </p>
   
